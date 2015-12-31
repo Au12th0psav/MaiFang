@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.module_name  = "MaiFang"
   s.source_files = "MaiFang/*.swift"
-  s.source       = { :git => "https://github.com/Au12th0psav/MaiFang.git" :tag => s.version }
+  s.source       = { :git => "https://github.com/Au12th0psav/MaiFang.git", :tag => s.version }
 
   s.requires_arc = true
   s.platform     = :ios, "8.0"
